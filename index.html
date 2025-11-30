@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyRepublic - Internet Cepat Tanpa Batas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="text-gray-800">
+
+    <!-- NAVBAR -->
+    <nav class="fixed w-full bg-white shadow z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-purple-600">MyRepublic</h1>
+            <ul class="hidden md:flex gap-6 font-semibold">
+                <li><a href="#layanan" class="hover:text-purple-600">Layanan</a></li>
+                <li><a href="#paket" class="hover:text-purple-600">Paket</a></li>
+                <li><a href="#faq" class="hover:text-purple-600">FAQ</a></li>
+                <li><a href="#kontak" class="hover:text-purple-600">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section 
+        class="h-screen bg-cover bg-center flex items-center justify-center text-center"
+        style="background-image: url('https://images.unsplash.com/photo-1527443154391-507e9dc6c5cc?auto=format&fit=crop&w=1950&q=80');">
+        <div class="bg-black bg-opacity-60 p-8 rounded-xl text-white max-w-2xl"
+            data-aos="fade-up">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Internet Fiber Cepat & Stabil</h1>
+            <p class="text-lg mb-6">MyRepublic — Pilihan terbaik untuk rumah dan bisnis Anda.</p>
+            <a href="#paket" class="px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-lg text-lg font-semibold">
+                Lihat Paket MyRepublic
+            </a>
+        </div>
+    </section>
+
+    <!-- LAYANAN -->
+    <section id="layanan" class="py-20">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-10" data-aos="fade-up">Layanan MyRepublic</h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <div class="p-6 bg-white shadow rounded-xl" data-aos="fade-right">
+                    <h3 class="text-xl font-bold mb-3">Internet Rumah</h3>
+                    <p>Koneksi fiber cepat & stabil untuk streaming, gaming, dan keluarga.</p>
+                </div>
+
+                <div class="p-6 bg-white shadow rounded-xl" data-aos="fade-up">
+                    <h3 class="text-xl font-bold mb-3">Internet Bisnis</h3>
+                    <p>Solusi internet profesional untuk kantor dan pelaku bisnis.</p>
+                </div>
+
+                <div class="p-6 bg-white shadow rounded-xl" data-aos="fade-left">
+                    <h3 class="text-xl font-bold mb-3">Dedicated Internet</h3>
+                    <p>Kecepatan khusus 24/7 tanpa gangguan untuk kebutuhan besar.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PAKET -->
+    <section id="paket" class="py-20 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-10" data-aos="fade-up">Paket Internet MyRepublic</h2>
+
+            <div class="grid md:grid-cols-3 gap-10">
+
+                <div class="p-8 bg-white shadow-lg rounded-xl" data-aos="zoom-in">
+                    <h3 class="text-2xl font-bold mb-2">Nova</h3>
+                    <p class="text-lg mb-4">50 Mbps</p>
+                    <h4 class="text-3xl font-bold text-purple-600 mb-6">Rp 199.000/Bulan</h4>
+                    <button class="w-full bg-purple-600 text-white py-3 rounded-lg hover:bg-purple-700">
+                        Berlangganan
+                    </button>
+                </div>
+
+                <div class="p-8 bg-purple-600 text-white shadow-xl rounded-xl transform scale-105" data-aos="zoom-in">
+                    <h3 class="text-2xl font-bold mb-2">Fast</h3>
+                    <p class="text-lg mb-4">100 Mbps</p>
+                    <h4 class="text-3xl font-bold mb-6">Rp 299.000/Bulan</h4>
+                    <button class="w-full bg-white text-purple-600 py-3 rounded-lg hover:bg-gray-200 font-bold">
+                        Berlangganan
+                    </button>
+                </div>
+
+                <div class="p-8 bg-white shadow-lg rounded-xl" data-aos="zoom-in">
+                    <h3 class="text-2xl font-bold mb-2">Ultra</h3>
+                    <p class="text-lg mb-4">200 Mbps</p>
+                    <h4 class="text-3xl font-bold text-purple-600 mb-6">Rp 499.000/Bulan</h4>
+                    <button class="w-full bg-purple-600 text-white py-3 rounded-lg hover:bg-purple-700">
+                        Berlangganan
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section id="faq" class="py-20">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-10" data-aos="fade-up">FAQ — Pertanyaan Umum</h2>
+
+            <div class="space-y-4">
+
+                <details class="bg-white shadow p-4 rounded-lg" data-aos="fade-up">
+                    <summary class="cursor-pointer text-lg font-semibold">Berapa lama proses pemasangan?</summary>
+                    <p class="mt-2 text-gray-600">Proses pemasangan biasanya 1–3 hari kerja setelah pendaftaran.</p>
+                </details>
+
+                <details class="bg-white shadow p-4 rounded-lg" data-aos="fade-up">
+                    <summary class="cursor-pointer text-lg font-semibold">Apakah ada batasan kuota?</summary>
+                    <p class="mt-2 text-gray-600">Tidak. Semua paket MyRepublic unlimited tanpa FUP.</p>
+                </details>
+
+                <details class="bg-white shadow p-4 rounded-lg" data-aos="fade-up">
+                    <summary class="cursor-pointer text-lg font-semibold">Apakah bisa upgrade paket?</summary>
+                    <p class="mt-2 text-gray-600">Ya, Anda bisa upgrade kapan saja melalui layanan pelanggan.</p>
+                </details>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section id="kontak" class="py-20 bg-purple-600 text-white text-center">
+        <h2 class="text-3xl font-bold mb-4">Hubungi MyRepublic</h2>
+        <p class="mb-6">Chat sekarang untuk pendaftaran atau konsultasi.</p>
+        <a 
+            href="https://wa.me/6281234567890?text=Halo%20saya%20ingin%20berlangganan%20MyRepublic"
+            class="px-8 py-4 bg-white text-purple-600 rounded-lg text-lg font-bold hover:bg-gray-200"
+        >
+            Chat via WhatsApp
+        </a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-6 bg-gray-900 text-center text-white">
+        © 2025 MyRepublic. All Rights Reserved.
+    </footer>
+
+
+    <!-- Floating WhatsApp Button -->
+    <a 
+        href="https://wa.me/6281234567890?text=Halo%20Admin%20MyRepublic,%20saya%20ingin%20info%20lebih%20lanjut."
+        class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600"
+        data-aos="zoom-in">
+        💬
+    </a>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>
