@@ -71,58 +71,67 @@
   <main class="pt-20">
 
     <!-- ================= HERO + PROMO SLIDER ================= -->
-    <section class="relative">
-      <div class="max-w-6xl mx-auto px-6">
-        <div id="slider" class="relative overflow-hidden rounded-2xl">
-          <!-- slides container -->
-          <div id="slides" class="flex transition-transform duration-700">
-            <!-- Slide 1 -->
-            <div class="min-w-full h-[60vh] flex items-center justify-center bg-cover bg-center" style="background-image:url('https://images.unsplash.com/photo-1527443154391-507e9dc6c5cc?auto=format&fit=crop&w=1950&q=80')">
-              <div class="bg-black/80 backdrop-blur-md p-8 rounded-xl text-white max-w-3xl text-center" data-aos="fade-up">
-                <h2 class="text-3xl md:text-4xl font-bold">Internet Fiber Cepat & Stabil</h2>
-                <p class="mt-3">Streaming, gaming, dan kerja jadi lancar tanpa gangguan.</p>
-                <div class="mt-6 flex justify-center gap-4">
-                  <a href="#paket" class="bg-brand-purple text-white px-6 py-3 rounded-lg">Lihat Paket</a>
-                  <a href="#kontak" class="bg-brand-purple text-white px-6 py-3 rounded-lg">Hubungi Kami</a>
-                </div>
-              </div>
-            </div>
+    <section id="paket" class="py-20 bg-gray-50">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h3 class="text-3xl font-bold mb-10" data-aos="fade-up">Paket & Harga</h3>
 
-            <!-- Slide 2 -->
-            <div class="min-w-full h-[60vh] flex items-center justify-center bg-cover bg-center" style="background-image:url('https://images.unsplash.com/photo-1454165205744-3b78555e5572?auto=format&fit=crop&w=1950&q=80')">
-              <div class="bg-black/80 backdrop-blur-md p-8 rounded-xl text-white max-w-3xl text-center" data-aos="fade-up">
-                <h2 class="text-3xl md:text-4xl font-bold">Promo Khusus: Gratis Pasang</h2>
-                <p class="mt-3">Nikmati promo terbatas untuk berlangganan 12 bulan.</p>
-                <div class="mt-6 flex justify-center gap-4">
-                  <a href="#paket" class="bg-brand-purple text-white px-6 py-3 rounded-lg">Cek Promo</a>
-                  <a href="#kontak" class="bg-brand-purple text-white px-6 py-3 rounded-lg">Daftar Sekarang</a>
-                </div>
-              </div>
-            </div>
+    <div class="grid md:grid-cols-3 gap-6">
 
-            <!-- Slide 3 -->
-            <div class="min-w-full h-[60vh] flex items-center justify-center bg-cover bg-center" style="background-image:url('https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1950&q=80')">
-              <div class="bg-black/80 backdrop-blur-md p-8 rounded-xl text-white max-w-3xl text-center" data-aos="fade-up">
-                <h2 class="text-3xl md:text-4xl font-bold">Solusi Internet untuk Bisnis</h2>
-                <p class="mt-3">Dedicated connection & SLA untuk operasional tanpa hambatan.</p>
-                <div class="mt-6 flex justify-center gap-4">
-                  <a href="#paket" class="bg-brand-purple text-white px-6 py-3 rounded-lg">Paket Bisnis</a>
-                  <a href="#kontak" class="bg-brand-purple text-white px-6 py-3 rounded-lg">Konsultasi</a>
-                </div>
-              </div>
-            </div>
+        <!-- PAKET 1 -->
+      <div class="p-0 bg-white rounded-xl shadow overflow-hidden" data-aos="zoom-in">
+        <div class="paket-img bg-cover bg-center h-40" style="background-image: url('asset/img/value.jpg');"></div>
+        <div class="p-6">
+          <h4 class="text-2xl font-bold">Nova</h4>
+          <p class="text-sm text-gray-600 mt-1">50 Mbps</p>
+          <div class="mt-4 text-3xl font-extrabold text-brand-purple">
+            Rp 199.000 <span class="text-base font-medium">/bln</span>
           </div>
-
-          <!-- slider controls -->
-          <button id="prev" class="absolute left-4 top-1/2 -translate-y-1/2 bg-white/80 p-2 rounded-full shadow hidden md:block">‹</button>
-          <button id="next" class="absolute right-4 top-1/2 -translate-y-1/2 bg-white/80 p-2 rounded-full shadow hidden md:block">›</button>
-
-          <!-- dots -->
-          <div id="dots" class="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-3"></div>
+          <button class="mt-6 w-full py-3 bg-brand-purple text-white rounded-lg" data-plan="Nova">Pilih Paket</button>
         </div>
       </div>
-    </section>
 
+      <!-- PAKET 1 -->
+      <div class="p-0 bg-white rounded-xl shadow overflow-hidden" data-aos="zoom-in">
+        <div class="paket-img bg-cover bg-center h-40" style="background-image: url('asset/img/value.jpg');"></div>
+        <div class="p-6">
+          <h4 class="text-2xl font-bold">Nova</h4>
+          <p class="text-sm text-gray-600 mt-1">50 Mbps</p>
+          <div class="mt-4 text-3xl font-extrabold text-brand-purple">
+            Rp 199.000 <span class="text-base font-medium">/bln</span>
+          </div>
+          <button class="mt-6 w-full py-3 bg-brand-purple text-white rounded-lg" data-plan="Nova">Pilih Paket</button>
+        </div>
+      </div>
+
+      <!-- PAKET 2 -->
+      <div class="p-0 bg-white rounded-xl shadow overflow-hidden" data-aos="zoom-in">
+        <div class="paket-img bg-cover bg-center h-40" style="background-image: url('asset/img/fast.jpg');"></div>
+        <div class="p-6">
+          <h4 class="text-2xl font-bold">Fast</h4>
+          <p class="text-sm text-gray-600 mt-1">100 Mbps</p>
+          <div class="mt-4 text-3xl font-extrabold text-brand-purple">
+            Rp 299.000 <span class="text-base font-medium">/bln</span>
+          </div>
+          <button class="mt-6 w-full py-3 bg-brand-purple text-white rounded-lg" data-plan="Fast">Pilih Paket</button>
+        </div>
+      </div>
+
+      <!-- PAKET 3 -->
+      <div class="p-0 bg-white rounded-xl shadow overflow-hidden" data-aos="zoom-in">
+        <div class="paket-img bg-cover bg-center h-40" style="background-image: url('asset/img/ultra.jpg');"></div>
+        <div class="p-6">
+          <h4 class="text-2xl font-bold">Ultra</h4>
+          <p class="text-sm text-gray-600 mt-1">200 Mbps</p>
+          <div class="mt-4 text-3xl font-extrabold text-brand-purple">
+            Rp 499.000 <span class="text-base font-medium">/bln</span>
+          </div>
+          <button class="mt-6 w-full py-3 bg-brand-purple text-white rounded-lg" data-plan="Ultra">Pilih Paket</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
     <!-- ================= LAYANAN ================= -->
     <section id="layanan" class="py-20">
       <div class="max-w-6xl mx-auto px-6 text-center">
@@ -326,6 +335,7 @@
 
 </body>
 </html>
+
 
 
 
